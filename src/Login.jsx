@@ -17,12 +17,11 @@ function Copyright(props) {
   return (
     <Typography
       variant="body2"
-      color="text.secondary"
       align="center"
       {...props}
     >
       {"Copyright © "}
-      <Link color="inherit" href="https://mui.com/">
+      <Link href="https://mui.com/">
         Your Website
       </Link>{" "}
       {new Date().getFullYear()}
@@ -90,7 +89,7 @@ export  function Login() {
               autoComplete="current-password"
             />
             <FormControlLabel
-              control={<Checkbox value="remember" color="primary" />}
+              control={<Checkbox value="remember" />}
               label="Remember me"
             />
             <Button
