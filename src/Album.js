@@ -18,7 +18,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 function Copyright() {
   return (
-    <Typography variant="body2" color="text.secondary" align="center">
+    <Typography variant="body2" align="center">
       {'Copyright © '}
       <Link color="inherit" href="https://mui.com/">
         Amazing Cars
@@ -60,12 +60,12 @@ export function Album() {
               component="h1"
               variant="h2"
               align="center"
-              color="text.primary"
+              
               gutterBottom
             >
               Avaliable Cars
             </Typography>
-            <Typography variant="h5" align="center" color="text.secondary" paragraph>
+            <Typography variant="h5" align="center"  paragraph>
             I don’t sell cars; I sell engines. The cars I throw in for free since something has to hold the engines in
             </Typography>
             <Stack
@@ -74,8 +74,6 @@ export function Album() {
               spacing={2}
               justifyContent="center"
             >
-              <Button variant="contained">Main call to action</Button>
-              <Button variant="outlined">Secondary action</Button>
             </Stack>
           </Container>
         </Box>
@@ -89,7 +87,7 @@ export function Album() {
                 >
                   <CardMedia
                     component="div"
-                    sx={{
+                    sx={{ 
                       // 16:9
                       pt: '56.25%',
                     }}
@@ -121,7 +119,7 @@ export function Album() {
         <Typography
           variant="subtitle1"
           align="center"
-          color="text.secondary"
+          
           component="p"
         >
           It all starts with a Dream...

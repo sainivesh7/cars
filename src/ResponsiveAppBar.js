@@ -12,7 +12,7 @@ import {Footer} from './Footer';
 import {Compo} from './Compo';
 import {Header} from './Header';
 import {Album} from './Album';
-import { blue,grey } from '@mui/material/colors';
+import { grey } from '@mui/material/colors';
 import Float1 from './Float1';
 export default function ButtonAppBar() {
   return (
@@ -48,7 +48,7 @@ export default function ButtonAppBar() {
             <Route exact path="/compos" element={<Compo />}/>
              <Route path="/footer" element={<Footer />}/>
         </Routes>
-        <img width="100%" src='https://www.autonocion.com/wp-content/uploads/2020/10/2021-rolls-royce-ghost.jpg'></img>
+       
         <Album />
         <Float1 />
  </Box>
